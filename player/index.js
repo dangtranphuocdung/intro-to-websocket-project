@@ -14,8 +14,8 @@ ws.on("open", () => {
   // TODO: Send a message to the server to create your meeple
   // The message should be a JSON string with 'name', 'color', and 'secret' properties.
   const meeple = {
-    name: "MyMeeple",
-    color: "blue",
+    name: "Dung Dang Tran Phuoc",
+    color: "Orange",
     secret: "my-secret-key",
   };
   ws.send(JSON.stringify({ type: "create", ...meeple }));
